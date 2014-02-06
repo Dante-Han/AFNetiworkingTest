@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <AFNetworking.h>
+#import <UIImageView+AFNetworking.h>
 
+#define URL @"http://petmily_2.0164740237.cloulu.com/fampage"
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UIView *imageView;
 
 @end
 
@@ -17,7 +21,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager
+                                              ];
+
+    NSDictionary *parameters = @{@"fam_id":@"aaa"};
+
+    [manager POST:URL parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//        [NSLog(@"json: %@",[operation responseString]);
+         id innerJSON = [responseObject objectForKey:@"5"];
+
+
+    } failure:
+     ^(AFHTTPRequestOperation *operation, NSError *error) {
+         NSLog(@"Error:%@",error);
+     }];
+
+
+    [self.uiimagView setImageWithURL:[NSURL URLWithString:URL]];
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
