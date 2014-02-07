@@ -27,11 +27,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="siL-d6-nTQ">
+                                <rect key="frame" x="35" y="250" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ok:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Izm-Y7-aEk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="kh9-bI-dsS" id="smH-vF-RHE"/>
+                        <outlet property="imageView" destination="gf0-CY-a79" id="8gY-lP-0Nd"/>
                         <outlet property="label" destination="elJ-xJ-ynI" id="QJF-ay-pdY"/>
                         <outlet property="uiimagView" destination="gf0-CY-a79" id="zK5-vm-Vex"/>
                     </connections>

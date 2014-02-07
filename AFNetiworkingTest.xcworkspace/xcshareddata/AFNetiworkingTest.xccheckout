@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8CE75EAD-D2E0-465E-9744-053DAAB9F9B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AFNetiworkingTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>432FE1D8-6516-4922-A940-00D0FD767EFF</key>
+		<string>https://github.com/Ethan-hansa/AFNetiworkingTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AFNetiworkingTest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>432FE1D8-6516-4922-A940-00D0FD767EFF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Ethan-hansa/AFNetiworkingTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>432FE1D8-6516-4922-A940-00D0FD767EFF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>432FE1D8-6516-4922-A940-00D0FD767EFF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AFNetiworkingTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
